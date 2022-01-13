@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 GOODS = []
 
 flag = True
@@ -35,3 +36,12 @@ for i in GOODS:
     DATA['Ед'].append(i[1]['Ед'])
 
 print(DATA)
+=======
+def int_func(string):
+    return string.title()
+
+
+words = input()
+print(int_func(words))
+
+>>>>>>> DZ_3

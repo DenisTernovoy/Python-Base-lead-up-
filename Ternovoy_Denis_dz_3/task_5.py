@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 my_list = [7, 5, 3, 3, 2]
 print(f'Текущий рейтинг: {my_list}')
 
@@ -11,3 +12,21 @@ while flag:
 
 my_list.append(new_element)
 print('Текущий рейтинг: {}'.format(sorted(my_list, reverse= True)))
+=======
+summ = 0
+
+
+# '*' - специальный символ
+
+
+flag = True
+while flag:
+    numbers = input().split()
+    for i in numbers:
+        if i != '*':
+            summ += int(i)
+        else:
+            flag = False
+            break
+    print(summ)
+>>>>>>> DZ_3
